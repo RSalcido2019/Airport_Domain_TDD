@@ -1,7 +1,11 @@
 class Bag{
-    constructor(weight, color){
+    constructor(weight){
         this.weight = weight
-        this.color =color
+        this.color = ''
+    }
+
+    setColor(brown) {
+        this.color = brown
     }
 }
 
