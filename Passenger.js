@@ -1,8 +1,10 @@
-class Passenger {
+const Person = require('./Person')
 
-        constructor(amount) {
-            this.amount = 25
-        }
+class Passenger extends Person {
+
+       callAttendant() {
+           console.log('Excuse me, Hay there!')
+       }
 }
 
 module.exports = Passenger
