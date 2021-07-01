@@ -1,0 +1,20 @@
+class Airport {
+    id:Passenger
+    destinations: STRING
+    Payment confirmation()
+    }
+
+class Baggage{
+    id: Bag
+    Weight: number 
+    Flight info: STRING
+    destinations: STRING
+}
+
+Passenger{
+    id: Bag
+    CallAttendant()
+    CheckBags()
+    CArryOnBags()
+}
+
